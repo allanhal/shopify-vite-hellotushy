@@ -1,12 +1,16 @@
-import fs from 'node:fs'
-import path from 'node:path'
-import { AddressInfo } from 'node:net'
-import { Manifest, Plugin, ResolvedConfig, normalizePath } from 'vite'
-import createDebugger from 'debug'
-import startTunnel from '@shopify/plugin-cloudflare/hooks/tunnel'
-import { renderInfo, isTTY } from '@shopify/cli-kit/node/ui'
+import createDebugger from 'debug';
+import fs from 'node:fs';
+import { AddressInfo } from 'node:net';
+import path from 'node:path';
+import { Manifest, normalizePath, Plugin, ResolvedConfig } from 'vite';
 
-import { CSS_EXTENSIONS_REGEX, KNOWN_CSS_EXTENSIONS, hotReloadScriptId, hotReloadScriptUrl } from './constants'
+import { isTTY, renderInfo } from '@shopify/cli-kit/node/ui';
+import startTunnel from '@shopify/plugin-cloudflare/hooks/tunnel';
+
+import {
+    CSS_EXTENSIONS_REGEX, hotReloadScriptId, hotReloadScriptUrl, KNOWN_CSS_EXTENSIONS
+} from './constants';
+
 import type { Options, DevServerUrl, FrontendURLResult } from './types'
 import type { TunnelClient } from '@shopify/cli-kit/node/plugins/tunnel'
 
@@ -233,7 +237,7 @@ const preloadScriptTag = (fileName: string, versionNumbers: boolean): string =>
 
 // Generate a production script tag for a script asset
 const scriptTag = (fileName: string, versionNumbers: boolean): string =>
-  `<script src="{{ ${assetUrl(fileName, versionNumbers)} }}" type="module" crossorigin="anonymous"></script>`
+  `<script src="{{ ${assetUrl(fileName, versionNumbers)} }}" type="module" crossorigin="anonymous" async defer></script>`
 
 // Generate a production stylesheet link tag for a style asset
 const stylesheetTag = (fileName: string, versionNumbers: boolean): string =>
@@ -261,15 +265,15 @@ const viteTagSnippetDev = (assetHost: string, entrypointsDir: string, reactPlugi
 %}${reactPlugin === undefined
     ? ''
     : `
-<script src="${assetHost}/@id/__x00__vite-plugin-shopify:react-refresh" type="module"></script>`}
-<script src="${assetHost}/@vite/client" type="module"></script>${!themeHotReload
+<script src="${assetHost}/@id/__x00__vite-plugin-shopify:react-refresh" type="module" async defer></script>`}
+<script src="${assetHost}/@vite/client" type="module" async defer></script>${!themeHotReload
   ? ''
   : `
-<script id="${hotReloadScriptId}" src="${hotReloadScriptUrl}" type="module"></script>`}
+<script id="${hotReloadScriptId}" src="${hotReloadScriptUrl}" type="module" async defer></script>`}
 {% if is_css == true %}
   <link rel="stylesheet" href="{{ file_url }}" crossorigin="anonymous">
 {% else %}
-  <script src="{{ file_url }}" type="module"></script>
+  <script src="{{ file_url }}" type="module" async defer></script>
 {% endif %}
 `
 
