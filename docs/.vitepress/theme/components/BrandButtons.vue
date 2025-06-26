@@ -7,7 +7,7 @@ import LinkIcon from './LinkIcon.vue'
     <div>
       <a
         class="brand-button brand-button--github"
-        href="https://github.com/barrel/shopify-vite"
+        href="https://github.com/allanhal/shopify-vite-hellotushy"
         target="_blank"
       >
         View on GitHub

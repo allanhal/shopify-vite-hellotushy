@@ -1,5 +1,5 @@
-import { fileURLToPath, URL } from 'node:url'
-import { HeadConfig, defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url';
+import { defineConfig, HeadConfig } from 'vitepress';
 
 export default defineConfig({
   title: 'Volt, a Vite plugin for Shopify development',
@@ -30,11 +30,11 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Shopify Vite Plugin' }],
-    ['meta', { property: 'og:image', content: 'https://shopify-vite.netlify.app/og-image.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://shopify-vite.netlify.app/' }],
-    ['meta', { property: 'og:description', content: 'Vite integration for Shopify themes by Barrel' }],
+    ['meta', { property: 'og:image', content: 'https://shopify-vite-hellotushy.netlify.app/og-image.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://shopify-vite-hellotushy.netlify.app/' }],
+    ['meta', { property: 'og:description', content: 'Vite integration for Shopify themes by allanhal' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:site', content: '@barrelny' }],
+    ['meta', { name: 'twitter:site', content: '@allanhalny' }],
     ['meta', { name: 'theme-color', content: '#000000' }]
   ],
 
@@ -69,27 +69,27 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/barrel/shopify-vite/edit/main/docs/:path',
+      pattern: 'https://github.com/allanhal/shopify-vite-hellotushy/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/barrel/shopify-vite' },
-      { icon: 'twitter', link: 'https://twitter.com/barrelny' },
-      { icon: 'instagram', link: 'https://www.instagram.com/barrelny/' },
-      { icon: 'facebook', link: 'https://www.facebook.com/barrelny' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/barrel/' }
+      { icon: 'github', link: 'https://github.com/allanhal/shopify-vite-hellotushy' },
+      { icon: 'twitter', link: 'https://twitter.com/allanhalny' },
+      { icon: 'instagram', link: 'https://www.instagram.com/allanhalny/' },
+      { icon: 'facebook', link: 'https://www.facebook.com/allanhalny' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/company/allanhal/' }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Made with ❤️ by Barrel'
+      copyright: 'Made with ❤️ by allanhal'
     },
 
     algolia: {
       appId: 'LWPLHR2236',
       apiKey: 'e33d44a0b2110e96d001eeb527ff015b',
-      indexName: 'shopify-vite'
+      indexName: 'shopify-vite-hellotushy'
     },
 
     nav: [

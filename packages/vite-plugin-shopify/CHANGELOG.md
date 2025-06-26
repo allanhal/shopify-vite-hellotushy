@@ -10,11 +10,11 @@
 
 ### Major Changes
 
-- Hot reloading for OSE, Theme Preview via `@shopify/theme-hot-reload` ([#177](https://github.com/barrel/shopify-vite/pull/177)) - **Breaking change:** You need to use `@shopify/cli@>=3.77.0`. This version includes an updated theme server and introduces the new `@shopify/theme-hot-reload` script.
+- Hot reloading for OSE, Theme Preview via `@shopify/theme-hot-reload` ([#177](https://github.com/allanhal/shopify-vite-hellotushy/pull/177)) - **Breaking change:** You need to use `@shopify/cli@>=3.77.0`. This version includes an updated theme server and introduces the new `@shopify/theme-hot-reload` script.
 
 ### Patch Changes
 
-- Fix unwanted page reloads ([#176](https://github.com/barrel/shopify-vite/pull/176))
+- Fix unwanted page reloads ([#176](https://github.com/allanhal/shopify-vite-hellotushy/pull/176))
 
 ## 3.2.0
 
@@ -32,11 +32,11 @@
 
 ### Minor Changes
 
-- Add tunnel support via @shopify/plugin-cloudflare ([#154](https://github.com/barrel/shopify-vite/pull/154))
+- Add tunnel support via @shopify/plugin-cloudflare ([#154](https://github.com/allanhal/shopify-vite-hellotushy/pull/154))
 
-- Add crossorigin="anonymous" to development css links ([#126](https://github.com/barrel/shopify-vite/pull/126))
+- Add crossorigin="anonymous" to development css links ([#126](https://github.com/allanhal/shopify-vite-hellotushy/pull/126))
 
-- Disable strict port so server will not exit when port is already used ([#122](https://github.com/barrel/shopify-vite/pull/122))
+- Disable strict port so server will not exit when port is already used ([#122](https://github.com/allanhal/shopify-vite-hellotushy/pull/122))
 
 ## 3.0.1
 
@@ -51,7 +51,7 @@
 Volt, a Vite plugin for Shopify development is an ESM-only package. To use it with [Vite 5](https://vitejs.dev/blog/announcing-vite5), we need
 to add `"type": "module"` to the `package.json` of our projects OR change the extension of our Vite config file to `.mjs`/`.mts`.
 
-- Vite 5 support ([#89](https://github.com/barrel/shopify-vite/pull/89))
+- Vite 5 support ([#89](https://github.com/allanhal/shopify-vite-hellotushy/pull/89))
 
 ## 2.2.1
 
@@ -75,26 +75,26 @@ to add `"type": "module"` to the `package.json` of our projects OR change the ex
 
 ### Patch Changes
 
-- Fix ESM support ([#77](https://github.com/barrel/shopify-vite/pull/77)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Fix ESM support ([#77](https://github.com/allanhal/shopify-vite-hellotushy/pull/77)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 2.1.0
 
 ### Minor Changes
 
-- Add support for react and react-refresh ([#74](https://github.com/barrel/shopify-vite/pull/74)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Add support for react and react-refresh ([#74](https://github.com/allanhal/shopify-vite-hellotushy/pull/74)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 2.0.2
 
 ### Patch Changes
 
-- JSDocs ([#67](https://github.com/barrel/shopify-vite/pull/67)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
-- Rename Options interface ([#69](https://github.com/barrel/shopify-vite/pull/69)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- JSDocs ([#67](https://github.com/allanhal/shopify-vite-hellotushy/pull/67)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Rename Options interface ([#69](https://github.com/allanhal/shopify-vite-hellotushy/pull/69)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 2.0.1
 
 ### Patch Changes
 
-- snippetFile option Fix ([#64](https://github.com/barrel/shopify-vite/pull/64)). Thanks [@slavamak](https://github.com/slavamak)!
+- snippetFile option Fix ([#64](https://github.com/allanhal/shopify-vite-hellotushy/pull/64)). Thanks [@slavamak](https://github.com/slavamak)!
 
 ## 2.0.0
 
@@ -104,9 +104,9 @@ We have deprecated the `vite-plugin-shopify-modules` and `vite-plugin-shopify-th
 These packages are no longer necessary and do not provide any additional benefit, and their presence can cause additional complexity
 and confusion.
 
-- Deprecate legacy packages ([#62](https://github.com/barrel/shopify-vite/pull/62)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
-- Add snippetFile option ([#61](https://github.com/barrel/shopify-vite/pull/61)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
-- Clean up config hook ([#59](https://github.com/barrel/shopify-vite/pull/59)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Deprecate legacy packages ([#62](https://github.com/allanhal/shopify-vite-hellotushy/pull/62)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Add snippetFile option ([#61](https://github.com/allanhal/shopify-vite-hellotushy/pull/61)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Clean up config hook ([#59](https://github.com/allanhal/shopify-vite-hellotushy/pull/59)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 > **Note**
 > After removing "vite-plugin-shopify-modules" from your theme, you could manually configure the `@modules` alias in Vite to maintain
@@ -116,38 +116,38 @@ and confusion.
 
 ### Patch Changes
 
-- Bugfix/server host ([#56](https://github.com/barrel/shopify-vite/pull/56)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Bugfix/server host ([#56](https://github.com/allanhal/shopify-vite-hellotushy/pull/56)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 1.0.1
 
 ### Patch Changes
 
-- Shopify Vite Docs ([#48](https://github.com/barrel/shopify-vite/pull/48)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Shopify Vite Docs ([#48](https://github.com/allanhal/shopify-vite-hellotushy/pull/48)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 1.0.0
 
 ### Major Changes
 
-- Update documentation of Shopify Vite Plugin. ([#47](https://github.com/barrel/barrel-shopify/pull/47)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Update documentation of Shopify Vite Plugin. ([#47](https://github.com/allanhal/allanhal-shopify/pull/47)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 0.0.13
 
 ### Patch Changes
 
-- Remove redundant types ([#44](https://github.com/barrel/barrel-shopify/pull/44)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
-- Improve DX ([#45](https://github.com/barrel/barrel-shopify/pull/45)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Remove redundant types ([#44](https://github.com/allanhal/allanhal-shopify/pull/44)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Improve DX ([#45](https://github.com/allanhal/allanhal-shopify/pull/45)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 0.0.12
 
 ### Patch Changes
 
-- Normalize path separators to use POSIX. Resolves [#35](https://github.com/barrel/barrel-shopify/issues/35) ([#37](https://github.com/barrel/barrel-shopify/pull/37)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Normalize path separators to use POSIX. Resolves [#35](https://github.com/allanhal/allanhal-shopify/issues/35) ([#37](https://github.com/allanhal/allanhal-shopify/pull/37)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 0.0.11
 
 ### Patch Changes
 
-- Fix issue with empty vite-client.liquid snippet! ([#33](https://github.com/barrel/barrel-shopify/pull/33)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
+- Fix issue with empty vite-client.liquid snippet! ([#33](https://github.com/allanhal/allanhal-shopify/pull/33)) by [@montalvomiguelo](https://github.com/montalvomiguelo)
 
 ## 0.0.10
 

@@ -1,5 +1,5 @@
 export default definePreset({
-  name: 'shopify-vite:theme',
+  name: 'shopify-vite-hellotushy:theme',
   options: {
     base: true,
     tailwindcss: true

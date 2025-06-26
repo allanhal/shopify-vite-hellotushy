@@ -1,7 +1,7 @@
 {
-  "name": "shopify-vite-preset",
+  "name": "shopify-vite-hellotushy-preset",
   "private": true,
-  "author": "Miguel Montalvo <miguel.montalvo@barrelny.com>",
+  "author": "Miguel Montalvo <miguel.montalvo@allanhalny.com>",
   "license": "MIT",
   "preset": "preset.ts",
   "scripts": {

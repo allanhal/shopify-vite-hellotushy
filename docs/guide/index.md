@@ -12,7 +12,7 @@ snippet to load your assets for development and production.
 The recommended and most straightforward approach to get started with Shopify Vite is to use the preset in a [fresh Shopify theme](https://shopify.dev/docs/themes/tools/cli/commands#init).
 
 ```bash
-npx @preset/cli apply barrel/shopify-vite --path preset
+npx @preset/cli apply allanhal/shopify-vite-hellotushy --path preset
 ```
 
 The preset automatically sets up Vite and Tailwind CSS in your theme. You may add any of the following flags to customize the preset:
@@ -22,7 +22,7 @@ The preset automatically sets up Vite and Tailwind CSS in your theme. You may ad
 | `--no-base`         | Skip installing Vite                                                   |
 | `--no-tailwindcss`  | Skip installing Tailwind CSS                                           |
 
-More information about the preset can be found on its [repository](https://github.com/barrel/shopify-vite/tree/main/preset).
+More information about the preset can be found on its [repository](https://github.com/allanhal/shopify-vite-hellotushy/tree/main/preset).
 
 ::: info
 Once you have installed the preset, you do not need to follow the rest of the installation guide.
@@ -174,7 +174,7 @@ npm run build
 ```
 
 ::: tip
-We recommend adding scripts to your project's package.json file to [launch the Shopify and Vite servers in parallel](/guide/troubleshooting#launch-shopify-vite).
+We recommend adding scripts to your project's package.json file to [launch the Shopify and Vite servers in parallel](/guide/troubleshooting#launch-shopify-vite-hellotushy).
 :::
 
 ## Working with JavaScript

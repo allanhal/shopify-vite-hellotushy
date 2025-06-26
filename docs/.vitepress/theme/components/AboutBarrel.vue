@@ -1,25 +1,25 @@
 <template>
-  <div class="about-barrel">
-    <div class="about-barrel__heading">
+  <div class="about-allanhal">
+    <div class="about-allanhal__heading">
       About the developers:
-      <img class="barrel-icon" src="/barrel-icon.svg" alt="Barrel" />
+      <img class="allanhal-icon" src="/allanhal-icon.svg" alt="allanhal" />
     </div>
 
-    <div class="about-barrel__content">
+    <div class="about-allanhal__content">
       <p>
-        Volt, a Vite plugin for Shopify development was developed by Barrel.<br />
-        Barrel partners with brands to design, build, and optimize web experiences.
+        Volt, a Vite plugin for Shopify development was developed by allanhal.<br />
+        allanhal partners with brands to design, build, and optimize web experiences.
       </p>
 
       <p>
-        <a href="https://barrelny.com" target="_blank">Learn more about Barrel</a>
+        <a href="https://allanhalny.com" target="_blank">Learn more about allanhal</a>
       </p>
     </div>
   </div>
 </template>
 
 <style scoped>
-.about-barrel {
+.about-allanhal {
   background-color: rgba(29, 29, 32, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 20px;
@@ -29,41 +29,41 @@
   margin-right: auto;
 }
 
-.about-barrel__heading {
+.about-allanhal__heading {
   font-size: 18px;
   line-height: 1.45;
   margin-bottom: 30px;
   white-space: nowrap;
 }
 
-.barrel-icon {
+.allanhal-icon {
   display: block;
   margin-top: 8px;
   width: 111px;
 }
 
-.about-barrel__content {
+.about-allanhal__content {
   font-size: 14px;
   line-height: 1.45;
   max-width: 460px;
 }
 
-.about-barrel__content p + p {
+.about-allanhal__content p + p {
   margin-top: 20px;
 }
 
-.about-barrel__content a {
+.about-allanhal__content a {
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.2s;
 }
 
-.about-barrel__content a:hover {
+.about-allanhal__content a:hover {
   color: var(--vp-c-brand-lighter);
 }
 
 @media (min-width: 680px) {
-  .about-barrel {
+  .about-allanhal {
     width: calc(100% - 96px);
     max-width: 1152px;
     padding-bottom: 33px;
@@ -71,16 +71,16 @@
 }
 
 @media (min-width: 960px) {
-  .about-barrel {
+  .about-allanhal {
     padding: 36px 80px 20px;
     display: flex;
   }
 
-  .about-barrel__heading {
+  .about-allanhal__heading {
     margin-bottom: 0;
   }
 
-  .about-barrel__content {
+  .about-allanhal__content {
     margin-left: 25%;
   }
 }

@@ -15,5 +15,5 @@ Explore examples of core features and common use cases.
 
 [hydrogen-theme]: https://github.com/montalvomiguelo/hydrogen-theme
 [skeleton-theme]: https://github.com/montalvomiguelo/skeleton-theme
-[basic-example]: https://github.com/barrel/shopify-vite/tree/main/examples/vite-shopify-example
-[preact-shopify]: https://github.com/barrel/shopify-vite/tree/main/examples/preact-shopify
+[basic-example]: https://github.com/allanhal/shopify-vite-hellotushy/tree/main/examples/vite-shopify-example
+[preact-shopify]: https://github.com/allanhal/shopify-vite-hellotushy/tree/main/examples/preact-shopify

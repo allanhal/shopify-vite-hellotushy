@@ -1,6 +1,6 @@
 # Troubleshooting
 
-If the suggestions here don't work, please try posting questions on [GitHub Discussions](https://github.com/barrel/shopify-vite/discussions).
+If the suggestions here don't work, please try posting questions on [GitHub Discussions](https://github.com/allanhal/shopify-vite-hellotushy/discussions).
 
 ## Dev Server Cross-Origin Resource Sharing (CORS)
 
@@ -28,7 +28,7 @@ export default {
 ```
 :::
 
-## How to launch the Shopify and Vite servers in parallel? {#launch-shopify-vite}
+## How to launch the Shopify and Vite servers in parallel? {#launch-shopify-vite-hellotushy}
 
 You can use [`concurrently`](https://github.com/open-cli-tools/concurrently) or [`npm-run-all`](https://github.com/mysticatea/npm-run-all) and [script commands](https://docs.npmjs.com/cli/v8/using-npm/scripts) to launch Vite and Shopify servers in parallel.
 

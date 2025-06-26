@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "description": "",
   "repository": {
-    "url": "barrel/shopify-vite",
+    "url": "allanhal/shopify-vite-hellotushy",
     "directory": "packages/vite-plugin-page-reload"
   },
   "license": "MIT",

@@ -25,7 +25,7 @@ const socialLinks = data.site.value?.themeConfig?.socialLinks || [];
       </div>
       <div class="footer__copyright">
         Released under the MIT License.<br />
-        Made with ❤️ by <a href="https://barrelny.com" target="_blank">Barrel</a>
+        Made with ❤️ by <a href="https://allanhalny.com" target="_blank">allanhal</a>
       </div>
 
       <div class="footer__social">

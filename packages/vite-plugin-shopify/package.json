@@ -4,7 +4,7 @@
   "description": "Vite plugin providing integration for Shopify themes",
   "type": "module",
   "repository": {
-    "url": "barrel/shopify-vite",
+    "url": "allanhal/shopify-vite-hellotushy",
     "directory": "packages/vite-plugin-shopify"
   },
   "keywords": [
@@ -12,7 +12,7 @@
     "shopify",
     "vite-plugin"
   ],
-  "author": "Barrel, LLC",
+  "author": "allanhal, LLC",
   "license": "MIT",
   "main": "./dist/index.js",
   "files": [

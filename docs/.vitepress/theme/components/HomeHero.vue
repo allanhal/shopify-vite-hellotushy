@@ -6,7 +6,7 @@ import BrandButtons from './BrandButtons.vue'
   <div class="VPHero has-image">
     <div class="container">
       <h1 class="hero-heading">
-        Vite integration for Shopify themes by <a href="https://barrelny.com">Barrel</a>.
+        Vite integration for Shopify themes by <a href="https://allanhalny.com">allanhal</a>.
       </h1>
       <div class="hero-text">
         Experience seamless integration and optimal configurations.

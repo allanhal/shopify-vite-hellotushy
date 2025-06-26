@@ -2,7 +2,7 @@
 layout: home
 
 title: Volt, a Vite plugin for Shopify development
-titleTemplate: Vite integration for Shopify themes by Barrel
+titleTemplate: Vite integration for Shopify themes by allanhal
 
 features:
   - icon:

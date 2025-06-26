@@ -10,6 +10,6 @@ Enhances Shopify theme development by adding support for import-maps
 
 [Cleans up the `/assets` folder](/guide/troubleshooting.html#how-to-cleanup-the-assets-folder).
 
-## [vite-plugin-page-reload](https://github.com/barrel/shopify-vite/tree/main/packages/vite-plugin-page-reload)
+## [vite-plugin-page-reload](https://github.com/allanhal/shopify-vite-hellotushy/tree/main/packages/vite-plugin-page-reload)
 
 Automatically reload the page when watched files change during development with Vite.

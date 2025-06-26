@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import HomeCallout from './HomeCallout.vue'
-import AboutBarrel from './AboutBarrel.vue'
+import Aboutallanhal from './Aboutallanhal.vue'
 </script>
 
 <template>
   <HomeCallout />
-  <AboutBarrel />
+  <Aboutallanhal />
 </template>
