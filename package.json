@@ -1,7 +1,9 @@
 {
   "name": "shopify-vite-hellotushy",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/allanhal/shopify-vite-hellotushy.git"
+  },
   "workspaces": [
     "packages/*",
     "examples/*",
