@@ -1,6 +1,6 @@
 {
   "name": "shopify-vite-hellotushy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/allanhal/shopify-vite-hellotushy.git"
   },
@@ -9,6 +9,20 @@
     "examples/*",
     "preset"
   ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "release": "pnpm run build && changeset publish",
     "build": "turbo run build --filter=vite-plugin-*",
@@ -24,6 +38,9 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "vite": "^6.3.5"
   },
   "dependencies": {
   },
